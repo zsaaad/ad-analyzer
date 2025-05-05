@@ -1,0 +1,52 @@
+.app {
+  min-height: 100vh;
+  background-color: #f8fafc;
+}
+
+.app-header {
+  background-color: #0f172a;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.app-header h1 {
+  text-align: center;
+  color: #fb923c;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.tab-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #1e293b;
+  color: #94a3b8;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tab-button:hover {
+  background-color: #334155;
+  color: #fb923c;
+}
+
+.tab-button.active {
+  background-color: #fb923c;
+  color: #0f172a;
+}
+
+.app-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+} 
